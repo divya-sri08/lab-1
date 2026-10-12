@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Online Quiz Application</h1>
+        <p class="subtitle">Test your knowledge!</p>
+
+        <div id="quiz">
+            <div id="progress"></div>
+            <h2 id="question">Loading question...</h2>
+            <div id="options"></div>
+            <button id="submitBtn">Submit Answer</button>
+            <p id="message"></p>
+        </div>
+
+        <div id="result" hidden>
+            <h2>Quiz Completed!</h2>
+            <p id="score"></p>
+            <p id="highScore"></p>
+            <button id="restartBtn">Try Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
